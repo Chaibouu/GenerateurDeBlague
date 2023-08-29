@@ -1,0 +1,36 @@
+body{
+    background: #2a7dc5;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+footer{
+    background: #3357a9;
+    padding: 2px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+footer>p{
+    color: white;
+    text-align: center;
+}
+main{
+    max-width: 800px;
+    height: 200px;
+    text-align: center;
+}
+#btn{
+    background: rgb(0, 119, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 50px;
+    padding: 5px;
+    width: 60%;
+}
