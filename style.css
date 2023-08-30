@@ -26,6 +26,7 @@ main{
     max-width: 800px;
     height: 200px;
     text-align: center;
+    background-color: red;
 }
 
 #btn{
