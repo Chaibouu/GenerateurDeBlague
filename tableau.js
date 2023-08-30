@@ -1,18 +1,23 @@
 const tableau = [
     {
         auteur : "Président BOBO",
-        contenue : "Il est tombé comme du n'importe quoi, on dirait la girafe ½ qui s'emmêle les pattes.",
+        contenue : "Il est tombé comme du n'importe quoi, on dirait la giraffe 🦒 qui s'emmêle les pattes.",
     },
     {
         auteur : "Président BOBO",
-        contenue : "il est tombe il est mort",
+        contenue : "La France fr nous a souvent volé nos richesses 💎💰 vous allez aussi nous volé nos footbaleur 🏃🏾‍♂ ?",
     },
     {
         auteur : "Président BOBO",
-        contenue : "il ",
+        contenue : "l'oiseau 🦜 sur le baobab ne doit pas oublier qu'il a porté des lunettes 👓 !",
     },
     {
         auteur : "Président BOBO",
-        contenue : "il est ",
+        contenue : "on a pas besoin d'eau 💦 potable pour éteindre un incendie 🔥 .",
+    },
+    {
+        auteur : "Président BOBO",
+        contenue : "le crocodile 🐊 n'attend que le gorille 🦍 accouche",
     },
 ]
+
