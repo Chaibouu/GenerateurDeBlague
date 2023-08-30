@@ -23,8 +23,10 @@ footer>p{
 }
 
 main{
-    max-width: 800px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
+    font-size: 3rem;
+    color: white;
     text-align: center;
     background-color: red;
 }
