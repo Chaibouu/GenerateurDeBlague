@@ -8,12 +8,15 @@ body{
     justify-content:center;
     align-items:center;
 }
+main{
+    text-align: center;
+}
 
 footer{
     background: #3357a9;
     padding: 2px;
     width: 100vw;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -22,21 +25,67 @@ footer>p{
     text-align: center;
 }
 
-main{
+#conteneur{
     width: 800px;
-    height: 300px;
+    height: 180px;
     font-size: 3rem;
     color: white;
     text-align: center;
-    background-color: red;
 }
+
 
 #btn{
     background: rgb(0, 119, 255);
     color: white;
     border: none;
     border-radius: 3px;
-    margin-top: 50px;
-    padding: 5px;
+    margin-top: 10px;
+    padding: 10px;
     width: 60%;
+    font-size: 1.1rem;
+}
+.auteur{
+    color: white;
+    padding-left: 46em;
+}
+
+@media screen and (max-width:768px) {
+    .auteur{
+        padding-left: 27em;
+    }
+    #conteneur{
+        width: 600px;
+        height: 200px;
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:425px) {
+    .auteur{
+        padding-left: 17em;
+    }
+    #conteneur{
+        width: 400px;
+        height: 160px;
+        font-size: 1.8rem;
+        color: white;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .auteur{
+        padding-left: 12em;
+    }
+    #conteneur{
+        width: 370px;
+        height: 130px;
+        font-size: 1.7rem;
+        color: white;
+        text-align: center;
+    }
+    
 }
